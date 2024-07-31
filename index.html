@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharpen the Saw Activity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sharpen the Saw Activity</h1>
+    <p>Click on the circles to place a dot according to your self-assessment in each dimension.</p>
+    <div class="circle-container">
+        <canvas id="circleCanvas"></canvas>
+        <div id="labels">
+            <div class="label" id="physical">Physical</div>
+            <div class="label" id="mental">Mental</div>
+            <div class="label" id="spiritual">Spiritual</div>
+            <div class="label" id="social">Social/Emotional</div>
+        </div>
+    </div>
+    <button onclick="connectDots()">Connect Dots</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
