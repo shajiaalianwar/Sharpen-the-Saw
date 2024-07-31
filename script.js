@@ -40,6 +40,10 @@ function connectDots() {
             context.lineTo(dots[i].x, dots[i].y);
         }
         context.lineTo(dots[0].x, dots[0].y);
+
+        // Set the color for the line connecting the dots
+        context.strokeStyle = 'green'; // Change color here
+        context.lineWidth = 2; // Adjust width as needed
         context.stroke();
     }
 }
